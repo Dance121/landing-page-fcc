@@ -15,18 +15,22 @@
   </head>
   <body>
     <header id="header">
+      <div class="toggle">
       <img
         id="header-img"
         src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
         alt="original trombone logo"
       />
+      <button class="btn-toggle">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
       <nav id="nav-bar">
-        <ul>
+        <ul class="links">
           <li><a class="nav-link" href="#features">Features</a></li>
           <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
           <li><a class="nav-link" href="#pricing">Pricing</a></li>
         </ul>
-      </nav>
       </nav>
     </header>
     <section id="form-container">
@@ -117,5 +121,6 @@
       </ul>
       <span>Copyright 2016, Original Trombones</span>
     </footer>
+    <script src="app.js"></script>
   </body>
 </html>
