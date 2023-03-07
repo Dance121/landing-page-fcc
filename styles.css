@@ -157,7 +157,7 @@ footer > span {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 100vw;
+  max-width: 90%;
 }
 .links {
     height: 0px;
